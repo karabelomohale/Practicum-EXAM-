@@ -42,7 +42,7 @@ class MainActivity2 : AppCompatActivity() {
                 conditions[0] = conditionInput
                 updateWeatherText()
             } else {
-                Toast.makeText(this, "Invalid temperature input", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "Please enter valid positive numbers for all fields.", Toast.LENGTH_SHORT).show()
             }
         } else {
             Toast.makeText(this, "Please fill in both fields", Toast.LENGTH_SHORT).show()
